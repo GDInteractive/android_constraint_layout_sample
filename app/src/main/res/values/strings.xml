@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Sample Constraints Layout</string>
+
+    <string name="li1">
+	    Dahulu kala hiduplah seorang raja bernama Prabu Tapa Agung,
+	    beliau memerintah kerajaan Pasir Batang dengan arif dan bijaksana.
+	    Sang prabu memiliki 7 (tujuh) orang putri yang sangat cantik jelita,
+	    mereka adalah Purba Rarang, Purba Dewata, Purba Endah, Purba Kanjana,
+	    Purba Manik, Purba Euih, dan Purba Sari.
+	    Lima diantaranya telah menikah dan menjadi permaisuri di kerajaan lain.
+	</string>
+	<string name="ls1">
+	    Zaman bahela hirup sahiji Raja ngarana Prabu Tapa Agung,
+	    anjeunna marentah kerajaan Pasir Batang sareng arif tur bijaksana.
+	    Si Prabu gaduh 7 (tujuh) putri nu gareulis yaeta ngarana Purba Rarang,
+	    Purba Dewata, Purba Endah, Purba Kanjana, Purna Manik, Purba Euih, sareng Purba Sari.
+	    lima diantarana tos nikah sareng janten peraisuri di kerajaan lain.
+	</string>
+	<string name="li2">
+	    Kini tinggal Purba Rarang dan Purba Sari yang belum menikah,
+	    tetapi Purba Rarang sudah memiliki tunangan yang sangat tampan dan gagah perkasa.
+	    Dia adalah Raden Indra Jaya, putra seorang menteri kerajaan.
+	</string>
+	<string name="ls2">
+	    Ayeuna tinggal Purba Rarang jeung Purba Sari nu acan nikah,
+	    namun Purba Rarang geus boga tunangan nu kasep tur gagah perkasa.
+	    anjeuna nyaeta Raden Indra Jaya, putra salah sahiji menteri kerajaan.
+	</string>
 </resources>

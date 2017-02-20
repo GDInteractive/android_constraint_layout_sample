@@ -7,14 +7,13 @@
     android:orientation="vertical">
 
     <android.support.v4.widget.NestedScrollView
-        android:layout_width="0dp"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <android.support.constraint.ConstraintLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
 
             <TextView
                 android:id="@+id/tv_nickname"
@@ -42,7 +41,8 @@
                 android:text="Eva Saifa"
                 app:layout_constraintLeft_toLeftOf="@+id/tv_nickname"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_nickname" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_nickname"
+                android:background="@android:drawable/edit_text" />
 
             <TextView
                 android:id="@+id/tv_location"
@@ -63,7 +63,8 @@
                 android:text="Jakarta"
                 app:layout_constraintLeft_toLeftOf="@+id/tv_location"
                 app:layout_constraintRight_toRightOf="@+id/et_nickname"
-                app:layout_constraintTop_toBottomOf="@+id/tv_location" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_location"
+                android:background="@android:drawable/edit_text" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -110,7 +111,8 @@
                 android:inputType="textMultiLine"
                 app:layout_constraintLeft_toLeftOf="@+id/tv_about"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_about" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_about"
+                android:background="@android:drawable/edit_text" />
 
             <TextView
                 android:id="@+id/tv_gender"
@@ -241,7 +243,8 @@
                 android:text="+62"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="@+id/textView15"
-                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                android:background="@android:drawable/edit_text" />
 
             <EditText
                 android:id="@+id/editText7"
@@ -251,24 +254,25 @@
                 android:layout_marginStart="8dp"
                 android:ems="10"
                 android:inputType="phone"
-                app:layout_constraintBottom_toBottomOf="@+id/editText6"
                 app:layout_constraintLeft_toRightOf="@+id/editText6"
-                app:layout_constraintTop_toTopOf="@+id/editText6"
-                app:layout_constraintRight_toRightOf="@+id/textView15" />
+                android:background="@android:drawable/edit_text"
+                app:layout_constraintVertical_bias="1.0"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText6"
+                app:layout_constraintRight_toRightOf="@+id/spinner9" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
-                android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginStart="16dp"
                 android:text="SEND"
-                app:layout_constraintBottom_toBottomOf="@+id/editText7"
-                app:layout_constraintLeft_toRightOf="@+id/editText7"
+                app:layout_constraintLeft_toRightOf="@+id/textView15"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/editText7" />
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintVertical_bias="1.0"
+                app:layout_constraintTop_toTopOf="@+id/editText7"
+                app:layout_constraintBottom_toBottomOf="@+id/editText7" />
 
         </android.support.constraint.ConstraintLayout>
 
